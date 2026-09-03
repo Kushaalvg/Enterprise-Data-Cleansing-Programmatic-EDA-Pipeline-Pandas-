@@ -1,3 +1,21 @@
+## 📂 Repository Architecture & File Mapping
+To maintain strict data hygiene and operational transparency, this repository is partitioned into isolated business case directories. Each folder contains its explicit Jupyter Notebook source code and its corresponding raw input dataset:
+
+```text
+Enterprise-Data-Exploration-and-Cleansing-Pandas/
+│
+├── 📁 1_Customer_Call_List_Cleaning/
+│   ├── Customer_Call_List_Cleaning.ipynb  --> [Python Pipeline Source Script]
+│   └── Customer Call List.xlsx            --> [Matching Raw Excel Dataset]
+│
+├── 📁 2_World_Population_EDA/
+│   ├── World_Population_EDA.ipynb          --> [Python Analytics Source Script]
+│   └── world_population.csv                --> [Matching Raw CSV Dataset]
+│
+└── README.md                               --> [Master Project Documentation]
+```
+---
+
 # 🐍 Enterprise Data Cleansing & Programmatic EDA Pipeline (Pandas)
 
 ## 📌 Project Overview
